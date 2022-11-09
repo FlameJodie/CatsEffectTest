@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(62a262de-7e21-4af0-b53c-bd62687a1321), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /root/projects/essentialscala/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/root/projects/essentialscala/src/main/scala/Main.scala:3:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mvav a = Monoid[Option[Int]].combine(Option(22), Option(11))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/projects/essentialscala/src/main/scala/Main.scala:4:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprint(a)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Oct 13, 2022, 4:43:18 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,4 @@
+[warn] scala-library-2.13.9-sources.jar no longer exists at \root\.cache\coursier\v1\http\nexus.corp.eldis.ru\repository\public\org\scala-lang\scala-library\2.13.9\scala-library-2.13.9-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/User/IdeaProjects/effects/"), "root")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/User/IdeaProjects/effects/"), "root")
