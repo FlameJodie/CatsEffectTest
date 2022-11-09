@@ -33,7 +33,9 @@ object read {
           repo.read(current).map {
             xs =>
               val nextAcc = acc ++ xs
-              Left(nextAcc, xs.flatMap(_.references.diff(nextAcc.map(x => x.id).toSeq)))
+              val refs = xs.flatMap(x => x.references)
+              val visited = nextAcc.map(x => x.id)
+              Left(nextAcc, refs.diff(visited))
           }
       }
     }
